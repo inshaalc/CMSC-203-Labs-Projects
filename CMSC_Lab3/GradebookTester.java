@@ -4,16 +4,16 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class GradeBookTester 
+class GradebookTester 
 {
-	GradeBook gradebook1;
-	GradeBook gradebook2;
+	Gradebook gradebook1;
+	Gradebook gradebook2;
 	
 	@BeforeEach
 	void setUp() throws Exception 
 	{
-		gradebook1 = new GradeBook(5);
-		gradebook2 = new GradeBook(5);
+		gradebook1 = new Gradebook(5);
+		gradebook2 = new Gradebook(5);
 		
 		gradebook1.addScore(75);
 		gradebook1.addScore(50);
