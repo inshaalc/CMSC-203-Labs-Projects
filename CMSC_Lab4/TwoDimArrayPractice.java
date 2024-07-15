@@ -3,7 +3,7 @@
 *  On Multi-dimensional Arrays
 */
 
-/**
+/*
  * Programmer: Inshaal Chaudhury
  * Class: CMSC 203 40438
  */
